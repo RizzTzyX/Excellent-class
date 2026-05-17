@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excellent Class - Modern Portal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Plus+Jakarta+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="hero">
+        <div class="nebula-overlay"></div>
+        <div class="hero-content">
+            <div class="class-logo">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h1 class="fade-in-text">Selamat Datang di Excellent-Class</h1>
+            <p class="sub-text">Portal Digital Interaktif, Kreatif, dan Futuristik.</p>
+            <div class="scroll-hint">
+                <p>Scroll ke bawah untuk menjelajah</p>
+                <i class="fas fa-angle-double-down animated-arrow"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="struktur" class="section-padding">
+        <h2 class="section-title">Struktur Organisasi</h2>
+        <div class="tree-wrapper">
+            <div class="tree-level reveal">
+                <div class="node boss">
+                    <span class="role">Wali Kelas</span>
+                    <span class="name">Belum terisi</span>
+                </div>
+            </div>
+            <div class="vertical-line reveal"></div>
+            
+            <div class="tree-level reveal side-by-side">
+                <div class="node leadership">
+                    <span class="role">Ketua Kelas</span>
+                    <span class="name">belum terisi</span>
+                </div>
+                <div class="node leadership">
+                    <span class="role">Wakil Ketua</span>
+                    <span class="name">belum terisi</span>
+                </div>
+            </div>
+            <div class="vertical-line reveal"></div>
+
+            <div class="tree-level reveal side-by-side">
+                <div class="node staff">
+                    <span class="role">Sekretaris</span>
+                    <span class="name">belum terisi</span>
+                </div>
+                <div class="node staff">
+                    <span class="role">Bendahara</span>
+                    <span class="name">belum terisi</span>
+                </div>
+            </div>
+            <div class="vertical-line reveal"></div>
+
+            <div class="tree-level reveal grid-level">
+                <div class="node division">
+                    <span class="role">Keamanan</span>
+                    <span class="name">belum terisi</span>
+                </div>
+                <div class="node division">
+                    <span class="role">Kebersihan</span>
+                    <span class="name">belum terisi</span>
+                </div>
+                <div class="node division">
+                    <span class="role">Kesehatan</span>
+                    <span class="name">belum terisi</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="siswa" class="section-padding">
+        <h2 class="section-title">Daftar Murid</h2>
+        <div class="horizontal-scroll-container">
+            <div id="student-grid" class="student-track"></div>
+        </div>
+    </section>
+
+    <section id="jadwal" class="section-padding">
+        <h2 class="section-title">Agenda Kelas</h2>
+        <div class="tab-controls">
+            <button id="btn-pelajaran" class="tab-btn active" onclick="switchTab('pelajaran')">
+                <i class="fas fa-book"></i> Jadwal Pelajaran
+            </button>
+            <button id="btn-piket" class="tab-btn" onclick="switchTab('piket')">
+                <i class="fas fa-broom"></i> Jadwal Piket
+            </button>
+        </div>
+
+        <div class="tab-content">
+            <div id="tab-pelajaran" class="content-pane active">
+                <div class="days-grid">
+                    <div class="day-card" onclick="openModalJadwal('Senin', 'Pelajaran')">Senin</div>
+                    <div class="day-card" onclick="openModalJadwal('Selasa', 'Pelajaran')">Selasa</div>
+                    <div class="day-card" onclick="openModalJadwal('Rabu', 'Pelajaran')">Rabu</div>
+                    <div class="day-card" onclick="openModalJadwal('Kamis', 'Pelajaran')">Kamis</div>
+                    <div class="day-card" onclick="openModalJadwal('Jumat', 'Pelajaran')">Jumat</div>
+                </div>
+            </div>
+
+            <div id="tab-piket" class="content-pane">
+                <div class="days-grid">
+                    <div class="day-card floating-box" onclick="openModalJadwal('Senin', 'Piket')">Senin</div>
+                    <div class="day-card floating-box" onclick="openModalJadwal('Selasa', 'Piket')">Selasa</div>
+                    <div class="day-card floating-box" onclick="openModalJadwal('Rabu', 'Piket')">Rabu</div>
+                    <div class="day-card floating-box" onclick="openModalJadwal('Kamis', 'Piket')">Kamis</div>
+                    <div class="day-card floating-box" onclick="openModalJadwal('Jumat', 'Piket')">Jumat</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="memories">
+        <h2 class="section-title">Memories of Excellent</h2>
+        <div class="memory-container">
+            <div class="memory-card-stack">
+                <img src="https://picsum.photos/800/500?random=1" alt="Kenangan 1">
+                <div class="memory-desc">Momen Seru Belajar Bersama di Kelas</div>
+            </div>
+            <div class="memory-container-spacing"></div>
+            <div class="memory-card-stack">
+                <img src="https://picsum.photos/800/500?random=2" alt="Kenangan 2">
+                <div class="memory-desc">Keseruan Saat Jam Istirahat Sekolah</div>
+            </div>
+            <div class="memory-container-spacing"></div>
+            <div class="memory-card-stack">
+                <img src="https://picsum.photos/800/500?random=3" alt="Kenangan 3">
+                <div class="memory-desc">Kompak Memenangkan Perlombaan Classmeeting</div>
+            </div>
+        </div>
+    </section>
+
+    <div id="global-modal" class="modal-overlay" onclick="closeModal(event)">
+        <div class="modal-box">
+            <button class="close-btn" onclick="document.getElementById('global-modal').classList.remove('active')">&times;</button>
+            <div id="modal-dynamic-content"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-socials">
+            <a href="https://instagram.com" target="_blank" class="social-item"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://whatsapp.com" target="_blank" class="social-item"><i class="fab fa-whatsapp"></i> WhatsApp Channel</a>
+            <a href="https://tiktok.com" target="_blank" class="social-item"><i class="fab fa-tiktok"></i> TikTok</a>
+        </div>
+        <div class="dev-tag">
+            <p>Developed with passion by <span class="developer-name">RizzXDOfficial</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+                  </html>
