@@ -1,8 +1,8 @@
 // DATA REPOSITORY (Silakan edit bagian ini jika ingin mengubah biodata murid atau data jadwal)
 const dataSiswa = [
-    { nama: "Asep", panggilan: "Asep", tglLahir: "12 Januari 2010", asal: "Sukabumi" },
-    { nama: "asep", panggilan: "asep", tglLahir: "05 Maret 2010", asal: "Bandung" },
-    { nama: "asep", panggilan: "asep", tglLahir: "18 Juli 2009", asal: "Jakarta" },
+    { nama: "Asep Lintang Maulana", panggilan: "Asep", tglLahir: "12 Januari 2012", asal: "Sukabumi" },
+    { nama: "Cikal Naufal Jilbran", panggilan: "cikal", tglLahir: "05 Maret 2012", asal: "Sukabumi" },
+    { nama: "Diska Maelani Putri", panggilan: "Diska", tglLahir: "18 Juli 2012", asal: "Sukabumi" },
     { nama: "asep", panggilan: "asep", tglLahir: "22 September 2010", asal: "Sukabumi" },
     { nama: "asep", panggilan: "asep", tglLahir: "14 Desember 2009", asal: "Sukabumi" },
     { nama: "Daftar", panggilan: "Daftar", tglLahir: "01 Februari 2010", asal: "Sukabumi" },
