@@ -2,12 +2,12 @@
 const dataSiswa = [
     { nama: "Asep Lintang Maulana", panggilan: "Asep", tglLahir: "12 Januari 2012", asal: "Sukabumi" },
     { nama: "Cikal Naufal Jilbran", panggilan: "cikal", tglLahir: "05 Maret 2012", asal: "Sukabumi" },
-    { nama: "Diska Maelani Putri", panggilan: "Diska", tglLahir: "18 Juli 2012", asal: "Sukabumi" },
-    { nama: "asep", panggilan: "asep", tglLahir: "22 September 2010", asal: "Sukabumi" },
-    { nama: "asep", panggilan: "asep", tglLahir: "14 Desember 2009", asal: "Sukabumi" },
-    { nama: "Daftar", panggilan: "Daftar", tglLahir: "01 Februari 2010", asal: "Sukabumi" },
-    { nama: "asep", panggilan: "asep", tglLahir: "30 Agustus 2010", asal: "Sukabumi" },
-    { nama: "Asep", panggilan: "Asep", tglLahir: "11 November 2009", asal: "Bogor" }
+    { nama: "Diska Meilani Putri", panggilan: "Diska", tglLahir: "18 Juli 2012", asal: "Sukabumi" },
+    { nama: "Elsa Safitri", panggilan: "madam", tglLahir: "22 September 2012", asal: "Sukabumi" },
+    { nama: "Intan Aulia", panggilan: "intan", tglLahir: "14 Desember 2012", asal: "Sukabumi" },
+    { nama: "Jaldi", panggilan: "Jaldi", tglLahir: "01 Februari 2012", asal: "Sukabumi" },
+    { nama: "Lina Ameliana", panggilan: "Lina", tglLahir: "30 Agustus 2012", asal: "Sukabumi" },
+    { nama: "M Dhania Rifki M", panggilan: "Dhania", tglLahir: "11 November 2012", asal: "Sukabumi" }
 ];
 
 const dataJadwal = {
